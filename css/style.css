@@ -1,0 +1,72 @@
+@import url(./reset.css);
+@font-face {
+    font-family: 'MabinogiClassic';
+    font-weight: normal;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonMabinogi/MabinogiClassic.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonMabinogi/MabinogiClassic.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/NexonMabinogi/MabinogiClassic.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/NexonMabinogi/MabinogiClassic.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/NexonMabinogi/MabinogiClassic.ttf') format("truetype");
+    font-display: swap;
+}
+
+
+body{
+    background-color: darkslategray;
+    font-family: 'MabinogiClassic';
+    color: white;
+    text-align: center;
+    
+}
+
+.hidden {
+    display: none;
+}
+#name {
+    font-size: 30px;
+    
+}
+#title {
+    font-size: 50px;
+    padding: 20px;
+}
+#clock {
+    font-size: 20px;
+}
+
+#login{
+    padding: 20px;
+}
+
+#login_Text ,#todo_Text{
+    background-color:darkslategray;
+    border: 1px solid white;
+    color:white;
+}
+
+#login_Btn , #todo_Btn, .delete_Btn{
+    border-radius: 2px;
+    margin: 0 5px ;
+}
+#todo_Form{
+    padding: 20px;
+}
+#todo_Board{
+    list-style: none;;
+
+    
+}
+#todo_Board li{
+    padding: 3px;
+    margin: 5px;
+}
+#todo_Board li > span{
+    margin: 0 5px;
+}
+#todo_End {
+    position: absolute;
+    bottom : 20%;
+    left: 43%;
+    
+}
